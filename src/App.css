@@ -1,38 +1,100 @@
-.App {
+body {
+  width: 100%;
+  height: auto;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  background: beige;
+  height: auto;
+ 
+}
+.App-container {
+  padding: 0 35px;
+}
+.App{
+ margin: 0 120px;
+}
+svg {
+  margin: 5px;
+}
+h3{
+  font-weight: 300;
+  font-size: 25px;
+  color:rgba(0,0,0,.55);
+}
+.card-banner{
+  height: 285px;
+  background-image: url(./image/banner.png);
+  background-repeat: no-repeat;
+  background-size: 1502px;
+  background-position: center;
+  border: none;
+}
+.card-main{
+  margin: 70px 10px;
+  
+}
+.cards-indi{
+  margin: 0 100px;
+  height: 300px;
+}
+.cardsSection1{
+  background-image: url(./image/pizza1.png);
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+.cardsSection2{
+  background-image: url(./image/pizza2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cardsSection3{
+  background-image: url(./image/pizza3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cardsSection4{
+  background-image: url(./image/pizza4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cardsSection5{
+  background-image: url(./image/pizza5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cardsSection6{
+  background-image: url(./image/pizza6.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.App-link {
-  color: #61dafb;
+.cardsSection7{
+  background-image: url(./image/pizza7.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title-pink{
+  color: #ff5b81;
+  font-weight: 300;
+  font-size: 16px;
+
+}
+.card-title-orange{
+  color: orange;
+  font-weight: 300;
+  font-size: 16px;
+}
+.footerMain{
+ font-size: 18px;
+ font-weight: 300;
+ background-color: beige;
+}
+.footerMain > footer{
+  background-color: red;
 }
